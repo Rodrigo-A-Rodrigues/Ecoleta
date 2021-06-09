@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br, en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block title %}
+        <title>Full Stack</title>
+    {% endblock title %}
+
+	<link rel="shortcut icon" href="Empresa/logo-favicon.png" type="image/x-png" />
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    {% block styles %}{% endblock styles %}
+    <link rel="stylesheet" href="css/responsive.css">
+    
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="{{ bodyId }}">
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+</body>
+</html>

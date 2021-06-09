@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --title-color: #322153;
+    --primary-color:#34cb79;
+}
+body{ 
+    background: #f0f0f5;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h3{
+    font-size: 3rem;
+}
+header h3 span{
+    color:rgb(11, 175, 11);
+}
